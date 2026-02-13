@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb53e7ec-8826-4d27-9f8c-25e08ef5dbfc"
+      }
+    },
+    "owner": "hozas"
   }
 }
