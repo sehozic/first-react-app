@@ -2,7 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import MainScreen from './screens/MainScreen.tsx';
+import MainScreen from './screens/MainScreen';
+import challengeMini from './screens/challengeMini'; 
 
 const Stack = createStackNavigator();
 
@@ -11,6 +12,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={MainScreen} ></Stack.Screen>
+        <Stack.Screen name="Challenge" component={challengeMini} ></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
